@@ -33,11 +33,27 @@ The **Account Service** is a Spring Boot application designed to manage accounts
    ```bash
    cd account-service
    ```
-3. Build the project:
+3. Install Python virtuel environment:
+   ```bash
+   python3 -m venv .venv
+   ```
+4. Activate virtuel environment:
+   ```bash
+   source .venv/bin/activate
+   ```
+5. Install requirements for Python:
+   ```bash
+   pip install -r requirements.txt
+   ```
+6. Activate pre-commit:
+   ```bash
+   pre-commit install
+   ```
+7. Build the project:
    ```bash
    ./gradlew build
    ```
-4. Run the application:
+8. Run the application:
    ```bash
    ./gradlew bootRun
    ```
@@ -91,4 +107,3 @@ For any questions or support, contact [your.email@example.com](mailto:your.email
 
 ---
 Happy coding! 🚀
-
